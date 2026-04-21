@@ -1,0 +1,117 @@
+/* ===== BODY ===== */
+body {
+    background-color: lightgray;
+    margin: 20px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+/* ===== NAVIGATION BAR ===== */
+nav {
+    background-color: darkblue;
+    padding: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect (important for points) */
+nav a:hover {
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* ===== HEADERS ===== */
+h1 {
+    color: darkred;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #555;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+/* ===== TEXT ===== */
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* ===== LISTS ===== */
+ul {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* ===== SECTIONS (makes it look nicer) ===== */
+section {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/* ===== TABLE ===== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* ===== IMAGES ===== */
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 15px auto;
+    border-radius: 10px;
+}
+
+/* Small hover effect (extra polish) */
+img:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+/* ===== LINKS (outside nav) ===== */
+a {
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+}
