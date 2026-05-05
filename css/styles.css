@@ -115,3 +115,72 @@ a {
 a:hover {
     color: red;
 }
+
+/* ===== FLEXBOX LAYOUT ===== */
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* ===== FORM STYLING ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 600px) {
+    body {
+        margin: 5px;
+        padding: 10px;
+        background-color: #e8eef5;
+    }
+
+    nav a {
+        display: block;
+        margin: 10px 0;
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p,
+    ul {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 12px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+}
